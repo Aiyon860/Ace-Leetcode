@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var uniqueOccurrences = function(arr) {
-    let countNums = [], count = 1, checkFalse = 0;
+    let countNums = [], count = 1;
     
     if (arr.length == 1) return true;
     
