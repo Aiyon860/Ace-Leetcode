@@ -11,9 +11,7 @@ var kidsWithCandies = function(candies, extraCandies) {
     for (let i = 0; i < n; i++) {
         for (let j = 0; j < n; j++) {
             if (i == j) continue;
-            if ((candies[i] + extraCandies) >= candies[j]) {
-                check++;
-            }
+            if ((candies[i] + extraCandies) >= candies[j]) check++;
         }
         check == (n - 1) ? greatestCandies.push(true) : greatestCandies.push(false);
         check = 0;
