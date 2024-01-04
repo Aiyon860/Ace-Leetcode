@@ -5,8 +5,6 @@
 var uniqueOccurrences = function(arr) {
     let countNums = [], count = 1;
     
-    if (arr.length == 1) return true;
-    
     for (let i = 0; i < arr.length; ) {
         for (let j = 0; j < arr.length; ) {
             if (arr[i] == arr[j] && i != j) {
