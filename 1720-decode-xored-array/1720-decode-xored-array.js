@@ -7,8 +7,7 @@ var decode = function(encoded, first) {
     let arr = [first], n = encoded.length;
     
     for (let i = 0; i < n; i++) {
-        let result = encoded[i] ^ arr[i];
-        arr.push(result);
+        arr.push(encoded[i] ^ arr[i]);
     }
     
     return arr;
