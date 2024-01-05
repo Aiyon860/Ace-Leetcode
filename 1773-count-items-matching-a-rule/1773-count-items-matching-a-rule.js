@@ -5,22 +5,12 @@
  * @return {number}
  */
 var countMatches = function(items, ruleKey, ruleValue) {
-    let count = 0, n = items.length;
+    let count = 0, n = items.length, 
+        set_key = ["type", "color", "name"],
+        key_index = set_key.indexOf(ruleKey);
     
-    if (ruleKey == "type") {
-        for (let i = 0; i < n; i++) {
-            if (items[i][0] == ruleValue) count++; 
-        }
-    }
-    if (ruleKey == "color") {
-        for (let i = 0; i < n; i++) {
-            if (items[i][1] == ruleValue) count++; 
-        }
-    }
-    if (ruleKey == "name") {
-        for (let i = 0; i < n; i++) {
-            if (items[i][2] == ruleValue) count++; 
-        }
+    for (let i = 0; i < n; i++) {
+        items[i][key_index] == ruleValue ? count++ : count;
     }
     
     return count;
