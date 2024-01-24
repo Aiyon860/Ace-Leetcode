@@ -11,10 +11,6 @@ var checkStraightLine = function(coordinates) {
         xCurrDiff = coordinates[i][0] - coordinates[i - 1][0];
         yCurrDiff = coordinates[i][1] - coordinates[i - 1][1];
         
-        if (xCurrDiff === 0 && yCurrDiff === 0) {
-            continue;
-        }
-        
         if ((yDiff * xCurrDiff) !== (xDiff * yCurrDiff)) {
             return false;
         }
