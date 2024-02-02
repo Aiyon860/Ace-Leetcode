@@ -1,7 +1,7 @@
 int digitSum(int number);
 int abs(int number);
 
-uint32_t differenceOfSum(uint32_t* nums, uint16_t numsSize) {    
+unsigned int differenceOfSum(unsigned int* nums, unsigned int numsSize) {    
     uint32_t element = 0;
     uint32_t digit = 0;
     uint32_t absDiff;
