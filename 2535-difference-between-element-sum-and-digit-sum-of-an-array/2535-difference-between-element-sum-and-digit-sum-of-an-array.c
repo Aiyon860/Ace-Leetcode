@@ -1,8 +1,10 @@
 int digitSum(int number);
+int abs(int number);
 
 int differenceOfSum(int* nums, int numsSize) {    
     uint32_t element = 0;
     uint32_t digit = 0;
+    uint32_t absDiff;
     
     if (numsSize == 1) return 0;
     
@@ -11,10 +13,16 @@ int differenceOfSum(int* nums, int numsSize) {
         digit += digitSum(nums[i]);
     }
     
-    return abs(element - digit);
+    absDiff = element - digit;
+    
+    return abs(absDiff);
 }
 
 int digitSum(int number) {
     if (number == 0) return 0;
-    else return number % 10 + digitSum(number / 10);
+    return number % 10 + digitSum(number / 10);
+}
+
+int abs(int number) {
+    return number * ((number > 0) - (number < 0));
 }
