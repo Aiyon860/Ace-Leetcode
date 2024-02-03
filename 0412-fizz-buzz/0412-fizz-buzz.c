@@ -9,7 +9,7 @@ char** fizzBuzz(int n, int* returnSize) {
         else if (i % 3 == 0) ans[i - 1] = "Fizz";
         else if (i % 5 == 0) ans[i - 1] = "Buzz";
         else {
-            ans[i - 1] = malloc(6);
+            ans[i - 1] = malloc(5);
             sprintf(ans[i - 1], "%d", i);            
         }
     }
