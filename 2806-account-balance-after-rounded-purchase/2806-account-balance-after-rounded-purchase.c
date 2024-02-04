@@ -1,8 +1,10 @@
-int accountBalanceAfterPurchase(int purchaseAmount){  
-    if ((purchaseAmount % 10) < 5) {
-        purchaseAmount -= (purchaseAmount % 10);
+int accountBalanceAfterPurchase(int purchaseAmount){
+    int roundedAmount = purchaseAmount % 10;
+    
+    if (roundedAmount < 5) {
+        purchaseAmount -= roundedAmount;
     } else {
-        purchaseAmount += (10 - (purchaseAmount % 10));
+        purchaseAmount += (10 - roundedAmount);
     }
     
     return 100 - purchaseAmount;
