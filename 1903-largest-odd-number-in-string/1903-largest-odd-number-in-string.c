@@ -1,6 +1,6 @@
 char* largestOddNumber(char* num) {
     int length = strlen(num);
-    char* empty = "";
+    char* empty = malloc(1);
     
     for (int i = length - 1; i >= 0; i--) {
         if (num[i] % 2 == 1) {
@@ -12,5 +12,6 @@ char* largestOddNumber(char* num) {
         }
     }
     
+    empty[0] = '\0';
     return empty;
 }
