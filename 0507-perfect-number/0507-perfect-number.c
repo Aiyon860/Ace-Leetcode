@@ -3,9 +3,9 @@ bool checkPerfectNumber(int num) {
     
     int sum = 1;
     
-    for (int i = 2; i <= num / 2; i++) {
+    for (int i = 2; i <= sqrt(num); i++) {
         if (num % i == 0) {
-            sum += num / i;
+            sum += i + (num / i);
         }
     }
     
