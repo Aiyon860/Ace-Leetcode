@@ -25,7 +25,7 @@ char* convertToBase7(int num) {
     // allocate memory for the result string
     char* ans = (char*)malloc((length + 2) * sizeof(char)); // +2 for negative sign and null-terminator 
     
-    int end = negative ? length : length - 1;
+    int end = length + negative - 1;
     
     if (negative) {
         ans[0] = '-';
