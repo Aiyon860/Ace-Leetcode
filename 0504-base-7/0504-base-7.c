@@ -17,9 +17,10 @@ char* convertToBase7(int num) {
     int temp = num;
     int length = 0;
     
-    do {
-       length++;
-    } while (temp /= 7);
+    while (temp != 0) {
+        length++;
+        temp /= 7;
+    }
     
     // allocate memory for the result string
     char* ans = (char*)malloc((length + 2) * sizeof(char)); // +2 for negative sign and null-terminator 
@@ -30,11 +31,12 @@ char* convertToBase7(int num) {
         ans[0] = '-';
     }
 
-    // directly assigning the value from (last index - 1)   
-    do {
+    // directly assigning the value from (last index - 1)
+    while (num != 0) {
         ans[end] = (num % 7) + '0';
+        num /= 7;
         end--;
-    } while (num /= 7);
+    }
     
     // add the null-terminator to the last index
     ans[length + negative] = '\0';
