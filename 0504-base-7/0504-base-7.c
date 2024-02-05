@@ -10,7 +10,7 @@ char* convertToBase7(int num) {
     
     if (num < 0) {
         negative = 1;
-        num = abs(num);
+        num = (num >= 0) ? num : (num = -num);
     } 
     
     // calculate the length of the result string
