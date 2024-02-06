@@ -8,7 +8,6 @@ bool isPalindrome(char* s) {
     }
     right--;
     
-    // do the iteration
     while (left < right) {
         // check if left character is alphanumeric
         if (!((*left >= 'a' && *left <= 'z') 
@@ -26,12 +25,10 @@ bool isPalindrome(char* s) {
             continue;
         }
         
-        // check if left character is uppercase
         if (*left >= 'A' && *left <= 'Z') {
             *left += 32;
         }
         
-        // check if right character is uppercase
         if (*right >= 'A' && *right <= 'Z') {
             *right += 32;
         }
