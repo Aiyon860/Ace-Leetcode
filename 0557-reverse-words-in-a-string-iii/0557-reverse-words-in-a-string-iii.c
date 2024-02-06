@@ -4,8 +4,12 @@ char* reverseWords(char* s) {
     int len = strlen(s);
     
     for (int i = 0; i < len; i++) {
-        if (s[i] == ' ') {
-            right = i - 1;
+        if (s[i] == ' ' || i == len - 1) {
+            if (s[i] == ' ') {
+                right = i - 1;
+            } else if (i == len - 1) {
+                right = len - 1;
+            }
             
             while (left < right) {
                 int temp = s[left];
@@ -18,19 +22,6 @@ char* reverseWords(char* s) {
             
             left = i + 1;
         } 
-        
-        if (i == len - 1) {
-            right = len - 1;
-            
-            while (left < right) {
-                int temp = s[left];
-                s[left] = s[right];
-                s[right] = temp;
-                
-                left++;
-                right--;
-            }
-        }
     }
     
     return s;
