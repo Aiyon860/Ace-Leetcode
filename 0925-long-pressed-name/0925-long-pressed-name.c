@@ -8,11 +8,12 @@ bool isLongPressedName(char* name, char* typed) {
     while (j < t) {
         if (i < n && name[i] == typed[j]) {
             i++;
+            j++;
         } else if (j == 0 || typed[j] != typed[j - 1]) {
             return 0;
-            break;
+        } else {
+            j++;
         }
-        j++;
     }
     
     return i == n;
