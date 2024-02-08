@@ -10,12 +10,12 @@ int removePalindromeSub(char* s) {
      * 2. keep in mind that subsequences that composed of only one type of letter are always palindrome strings
      */
     
+    if (s[0] == '\0') { return 0; }
+    
     int start = 0;
     int end = strlen(s) - 1;
     
-    if (s[0] == '\0') { return 0; }
-    
-    while (start < end) {
+    for (; start < end; ) {
         if (s[start] != s[end]) {
             return 2;
             break;
