@@ -17,12 +17,12 @@ int removePalindromeSub(char* s) {
     
     while (start < end) {
         if (s[start] != s[end]) {
+            return 2;
             break;
         }
         start++;
         end--;
     }
     
-    if (start >= end) { return 1; }
-    else { return 2; }
+    return 1; 
 }
