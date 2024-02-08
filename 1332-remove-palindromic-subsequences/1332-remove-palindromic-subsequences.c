@@ -18,7 +18,6 @@ int removePalindromeSub(char* s) {
     for (; start < end; ) {
         if (s[start] != s[end]) {
             return 2;
-            break;
         }
         start++;
         end--;
