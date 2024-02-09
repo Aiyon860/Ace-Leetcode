@@ -15,8 +15,7 @@ int* decompressRLElist(int* nums, int numsSize, int* returnSize) {
     // decompress the RLE list
     for (int i = 0; i < numsSize; i += 2) {
         for (int j = 0; j < nums[i]; j++) {
-            ans[a] = nums[i + 1];
-            a++;
+            ans[a++] = nums[i + 1];
         }
     }
     
