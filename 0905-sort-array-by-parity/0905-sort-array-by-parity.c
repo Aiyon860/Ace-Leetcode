@@ -5,7 +5,9 @@ int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
     int left = 0;               // left pointer
     int right = numsSize - 1;   // right pointer
         
+    // do the iteration until left == right or left > right
     while (left < right) {
+        // 
         if (nums[left] % 2 == 0) {
             left++;
         } else if (nums[right] % 2 == 0) {
