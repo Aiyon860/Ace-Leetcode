@@ -22,12 +22,14 @@ int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
             left++;
             right--;
         
-        // 
+        // if the left index's value is an odd number and
+        // the right index's value is an odd number too, then we don't swap.
         } else {
             right--;
         }
     }
     
+    // return back to the caller about the size of the array will be returned.
     *returnSize = numsSize;
     
     return nums;
