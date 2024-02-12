@@ -2,8 +2,8 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
-    int left = 0;               // left pointer
-    int right = numsSize - 1;   // right pointer
+    uint16_t left = 0;               // left pointer
+    uint16_t right = numsSize - 1;   // right pointer
         
     // do the iteration until left == right or left > right
     while (left < right) {
