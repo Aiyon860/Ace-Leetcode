@@ -2,20 +2,17 @@ bool textToNumber(char* age);
 
 int countSeniors(char** details, int detailsSize){
     int count = 0;
+    char age[3];
     
     for (int i = 0; i < detailsSize; i++)
     {
-        char* age = (char*) malloc(sizeof(char) * 3);
-        *age = '\0';
-        strncat(age, &details[i][11], 1);
-        strncat(age, &details[i][12], 1);
+        age[0] = details[i][11];
+        age[1] = details[i][12];
         
         if (textToNumber(age))
         {
             count++;
         }
-        
-        free(age);
     }
     
     return count;
@@ -23,15 +20,10 @@ int countSeniors(char** details, int detailsSize){
 
 bool textToNumber(char* age)
 {
-    int digit;
     int result = 0;
-    
-    while ((*age >= '0' && *age <= '9'))
-    {
-        digit = *age - '0';
-        result = (result << 1) + (result << 3) + digit;
-        age++;
-    }
+
+    result = (result << 1) + (result << 3) + age[0] - '0';
+    result = (result << 1) + (result << 3) + age[1] - '0';
     
     return result > 60;
 }
