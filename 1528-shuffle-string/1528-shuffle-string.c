@@ -1,5 +1,4 @@
 char* restoreString(char* s, int* indices, int indicesSize) {
-    int length = strlen(s);
     char temp;
     
     for (int i = 0; i < indicesSize; i++) {
