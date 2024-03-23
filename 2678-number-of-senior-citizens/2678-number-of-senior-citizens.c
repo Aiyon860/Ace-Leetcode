@@ -2,28 +2,18 @@ bool textToNumber(char* age);
 
 int countSeniors(char** details, int detailsSize){
     int count = 0;
-    char age[3];
     
     for (int i = 0; i < detailsSize; i++)
     {
-        age[0] = details[i][11];
-        age[1] = details[i][12];
+        int age_one = details[i][11] - '0';
+        int age_two = details[i][12] - '0';
+        int age_number = age_one * 10 + age_two;
         
-        if (textToNumber(age))
+        if (age_number > 60)
         {
             count++;
         }
     }
     
     return count;
-}
-
-bool textToNumber(char* age)
-{
-    int result = 0;
-
-    result = (result << 1) + (result << 3) + age[0] - '0';
-    result = (result << 1) + (result << 3) + age[1] - '0';
-    
-    return result > 60;
 }
