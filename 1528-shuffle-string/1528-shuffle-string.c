@@ -1,11 +1,23 @@
 char* restoreString(char* s, int* indices, int indicesSize) {
-    char* t = (char*) malloc((indicesSize + 1) * sizeof(char));
+    int length = strlen(s);
+    char temp;
     
-    for (int i = 0; i < indicesSize; i++)
-    {
-        t[indices[i]] = s[i];
+    for (int i = 0; i < indicesSize; i++) {
+        if (indices[i] != i) {
+            // Swap characters at indices[i] and i
+            temp = s[indices[i]];
+            s[indices[i]] = s[i];
+            s[i] = temp;
+            
+            // Adjust indices array to reflect the swap
+            int tempIndex = indices[indices[i]];
+            indices[indices[i]] = indices[i];
+            indices[i] = tempIndex;
+            
+            // Check the swapped position again
+            i--;
+        }
     }
-    t[indicesSize] = '\0';
     
-    return t;
+    return s;
 }
