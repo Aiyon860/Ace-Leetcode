@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0217-contains-duplicate) |
 | [0463-island-perimeter](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0463-island-perimeter) |
 ## Depth-First Search
@@ -21,6 +22,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0242-valid-anagram) |
 ## Sorting
