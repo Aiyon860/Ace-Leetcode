@@ -4,15 +4,14 @@ bool isAnagram(char* s, char* t) {
         return false;
     }
 
-    int sAlpha[128] = {0};
-    int tAlpha[128] = {0};
+    int alpha[26] = {0};
     
     for (int i = 0; i < lens; i++) {
-        sAlpha[(int)s[i]]++;
-        tAlpha[(int)t[i]]++;
+        alpha[s[i]-97]++;
+        alpha[t[i]-97]--;
     }
-    for (int i = 0; i < 128; i++) {
-        if (sAlpha[i] != tAlpha[i]) {
+    for (int i = 0; i < 26; i++) {
+        if (alpha[i] != 0) {
             return false;
         }
     }
