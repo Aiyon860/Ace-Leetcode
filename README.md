@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0001-two-sum) |
+| [0048-rotate-image](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0048-rotate-image) |
 | [0217-contains-duplicate](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0217-contains-duplicate) |
 | [0463-island-perimeter](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0463-island-perimeter) |
 ## Depth-First Search
@@ -18,6 +19,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0048-rotate-image) |
 | [0463-island-perimeter](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0463-island-perimeter) |
 ## Hash Table
 |  |
@@ -34,4 +36,8 @@
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0242-valid-anagram) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
