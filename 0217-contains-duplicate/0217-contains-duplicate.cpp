@@ -5,9 +5,8 @@ public:
         for (int i = 0; i < nums.size(); ++i) {
             if (s.count(nums[i])) {
                 return true;
-            } else {
-                s.insert(nums[i]);
-            }
+            } 
+            s.insert(nums[i]);
         }
         return false;
     }
