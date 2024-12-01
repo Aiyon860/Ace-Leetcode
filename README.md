@@ -45,6 +45,7 @@
 | ------- |
 | [0048-rotate-image](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0069-sqrtx) |
+| [1013-fibonacci-number](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1013-fibonacci-number) |
 ## Union Find
 |  |
 | ------- |
@@ -53,4 +54,16 @@
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0069-sqrtx) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1013-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
