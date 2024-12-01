@@ -44,8 +44,13 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0048-rotate-image) |
+| [0069-sqrtx](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0069-sqrtx) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0200-number-of-islands) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
