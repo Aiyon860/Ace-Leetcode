@@ -1,8 +1,5 @@
 class Solution {
 public:
-    int max(int a, int b) {
-        return a > b ? a : b;
-    }
     int findClosestNumber(vector<int>& nums) {
         int val = nums[0];
         int min_diff = abs(nums[0]);
