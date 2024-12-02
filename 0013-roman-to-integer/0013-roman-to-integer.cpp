@@ -13,8 +13,7 @@ public:
         int res = 0;
         for (int i = 0; i < s.length(); ++i) {
             if (i != 0 && mp[s[i]] > mp[s[i - 1]]) {
-                res -= mp[s[i - 1]];
-                res += (mp[s[i]] - mp[s[i - 1]]);
+                res += (mp[s[i]] - (2 * mp[s[i - 1]]));
             } else {
                 res += mp[s[i]];
             }
