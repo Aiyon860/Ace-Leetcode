@@ -42,6 +42,7 @@
 | ------- |
 | [0242-valid-anagram](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0242-valid-anagram) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [1894-merge-strings-alternately](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Math
 |  |
 | ------- |
@@ -72,6 +73,7 @@
 |  |
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [1894-merge-strings-alternately](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1894-merge-strings-alternately) |
 ## String Matching
 |  |
 | ------- |
