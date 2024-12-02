@@ -4,23 +4,13 @@ public:
         string res = "";
         int f_len = word1.length();
         int s_len = word2.length();
-        int i = max(f_len, s_len);
-        int j = min(f_len, s_len);
-        int idx = 0;
-        while (idx < j) {
-            res = res + word1[idx] + word2[idx];
-            ++idx; 
-            --i;
-        }
-        if (j == f_len) {
-            while (i--) {
-                res += word2[idx];
-                ++idx;
+        int i = 0;
+        for (int i = 0; i < f_len || i < s_len; ++i) {
+            if (i < f_len) {
+                res += word1[i];
             }
-        } else {
-            while (i--) {
-                res += word1[idx];
-                ++idx;
+            if (i < s_len) {
+                res += word2[i];
             }
         }
         return res;
