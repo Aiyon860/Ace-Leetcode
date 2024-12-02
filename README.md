@@ -9,6 +9,7 @@
 | [0200-number-of-islands](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0217-contains-duplicate) |
 | [0463-island-perimeter](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0463-island-perimeter) |
+| [2350-find-closest-number-to-zero](https://github.com/Aiyon860/Ace-Leetcode/tree/master/2350-find-closest-number-to-zero) |
 ## Depth-First Search
 |  |
 | ------- |
