@@ -40,6 +40,7 @@
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0242-valid-anagram) |
+| [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 ## Math
 |  |
 | ------- |
@@ -66,4 +67,12 @@
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1013-fibonacci-number) |
+## Two Pointers
+|  |
+| ------- |
+| [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+## String Matching
+|  |
+| ------- |
+| [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 <!---LeetCode Topics End-->
