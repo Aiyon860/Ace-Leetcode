@@ -9,6 +9,7 @@
 | [0200-number-of-islands](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0217-contains-duplicate) |
 | [0463-island-perimeter](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0463-island-perimeter) |
+| [2232-adding-spaces-to-a-string](https://github.com/Aiyon860/Ace-Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2350-find-closest-number-to-zero](https://github.com/Aiyon860/Ace-Leetcode/tree/master/2350-find-closest-number-to-zero) |
 ## Depth-First Search
 |  |
@@ -45,6 +46,7 @@
 | [0242-valid-anagram](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0242-valid-anagram) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1894-merge-strings-alternately](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1894-merge-strings-alternately) |
+| [2232-adding-spaces-to-a-string](https://github.com/Aiyon860/Ace-Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 ## Math
 |  |
 | ------- |
@@ -77,8 +79,13 @@
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1894-merge-strings-alternately](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1894-merge-strings-alternately) |
+| [2232-adding-spaces-to-a-string](https://github.com/Aiyon860/Ace-Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 ## String Matching
 |  |
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+## Simulation
+|  |
+| ------- |
+| [2232-adding-spaces-to-a-string](https://github.com/Aiyon860/Ace-Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 <!---LeetCode Topics End-->
