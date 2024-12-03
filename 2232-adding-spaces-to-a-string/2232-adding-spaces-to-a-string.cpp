@@ -1,15 +1,14 @@
 class Solution {
 public:
     string addSpaces(string s, vector<int>& spaces) {
-        int n = s.length(), m = spaces.size(), i = 0, j = 0;
-        string res="";
-        while (j < n) {
+        int n = s.length(), m = spaces.size(), len = n + m, i = 0, j = 0, idx = 0;
+        string res(len, ' ');
+        while (idx < len) {
             if (i < m && j == spaces[i]) {
-                res += " ";
                 ++i;
+                ++idx;
             } else {
-                res += s[j];
-                ++j;
+                res[idx++] = s[j++];
             }
         }
         return res;
