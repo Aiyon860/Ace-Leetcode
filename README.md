@@ -6,6 +6,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0001-two-sum) |
 | [0048-rotate-image](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0048-rotate-image) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0217-contains-duplicate) |
 | [0463-island-perimeter](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0463-island-perimeter) |
@@ -67,6 +68,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0392-is-subsequence) |
 | [1013-fibonacci-number](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1013-fibonacci-number) |
 ## Recursion
