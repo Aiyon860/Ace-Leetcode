@@ -44,6 +44,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0014-longest-common-prefix) |
 | [0242-valid-anagram](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0392-is-subsequence) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -100,4 +101,8 @@
 |  |
 | ------- |
 | [0908-middle-of-the-linked-list](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0908-middle-of-the-linked-list) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
