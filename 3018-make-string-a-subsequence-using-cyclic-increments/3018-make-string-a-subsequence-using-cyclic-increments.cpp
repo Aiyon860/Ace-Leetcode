@@ -6,7 +6,7 @@ public:
             return false;
         }
         while (i < f_len && j < s_len) {
-            char next = (str1[i] + 1 > 'z' ? 'a' : str1[i] + 1);
+            char next = (str1[i] == 'z' ? 'a' : str1[i] + 1);
             if (str1[i] == str2[j] || next == str2[j]) {
                 ++i;
                 ++j;
