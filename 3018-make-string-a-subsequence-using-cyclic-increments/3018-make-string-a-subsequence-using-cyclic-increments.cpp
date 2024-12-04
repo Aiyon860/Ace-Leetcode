@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool canMakeSubsequence(string str1, string str2) {
-        int i = 0, j = 0, f_len = str1.length(), s_len = str2.length();
+        int i = 0, j = 0, f_len = str1.size(), s_len = str2.size();
         if (f_len < s_len) {
             return false;
         }
