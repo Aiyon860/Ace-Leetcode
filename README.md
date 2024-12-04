@@ -78,6 +78,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0908-middle-of-the-linked-list](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1894-merge-strings-alternately](https://github.com/Aiyon860/Ace-Leetcode/tree/master/1894-merge-strings-alternately) |
 | [2232-adding-spaces-to-a-string](https://github.com/Aiyon860/Ace-Leetcode/tree/master/2232-adding-spaces-to-a-string) |
@@ -90,4 +91,8 @@
 |  |
 | ------- |
 | [2232-adding-spaces-to-a-string](https://github.com/Aiyon860/Ace-Leetcode/tree/master/2232-adding-spaces-to-a-string) |
+## Linked List
+|  |
+| ------- |
+| [0908-middle-of-the-linked-list](https://github.com/Aiyon860/Ace-Leetcode/tree/master/0908-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
