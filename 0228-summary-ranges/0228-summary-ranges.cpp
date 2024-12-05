@@ -1,31 +1,21 @@
 class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
-        vector<string> res;
-        string t;
-        int n = nums.size(), idx = 0, init_pos = 0;
+         vector<string> res;
+        int n = nums.size();
         if (n == 0) {
             return res;
         }
-        t += to_string(nums[0]);
-        for (int i = 1; i < n; ++i) {
-            if (nums[i] == nums[i - 1] + 1) {
-                ++idx;
-            } else {
-                if (idx != init_pos) {
-                    t += "->" + to_string(nums[idx]);
+        int start = 0;
+        for (int i = 1; i <= n; ++i) {
+            if (i == n || nums[i] != nums[i - 1] + 1) {
+                if (start == i - 1) {
+                    res.push_back(to_string(nums[start]));
+                } else {
+                    res.push_back(to_string(nums[start]) + "->" + to_string(nums[i - 1]));
                 }
-                ++idx;
-                res.push_back(t);
-                t = to_string(nums[i]);
-                init_pos = i;
+                start = i;
             }
-        }
-        if (idx != init_pos) {
-            t += "->" + to_string(nums[idx]);
-        }
-        if (t != "") {
-            res.push_back(t);
         }
         return res;
     }
